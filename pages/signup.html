@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark mb-5">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">SKILLBOOST</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="my_courses.html">my courses</a></li>
+                    <li class="nav-item"><a class="btn btn-light rounded-pill px-4" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="btn btn-light rounded-pill px-4 bg-opacity-25 border-0 text-dark"
+                            href="signup.html">Sign
+                            Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg-white vh-100 d-flex align-items-center justify-content-center">
+        <div class="container" style="max-width: 500px;">
+            <form>
+                <div class="mb-4">
+                    <label for="email" class="form-label fw-bold text-dark">Email Address</label>
+                    <input type="email" class="form-control rounded-pill border-info py-2 px-4" id="email"
+                        placeholder="Enter your Email Address">
+                </div>
+
+                <div class="mb-4">
+                    <label for="username" class="form-label fw-bold text-dark">User name</label>
+                    <input type="text" class="form-control rounded-pill border-info py-2 px-4" id="username"
+                        placeholder="Enter your User name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label fw-bold text-dark">Password</label>
+                    <div class="position-relative">
+                        <input type="password" class="form-control rounded-pill border-info py-2 px-4" id="password"
+                            placeholder="Enter your Password">
+                        <i class="bi bi-eye-slash position-absolute end-0 top-50 translate-middle-y me-4"></i>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <button type="submit" class="btn btn-info text-white rounded-pill px-5 py-2 w-50 shadow-sm">
+                        Register
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="container-fluid bg-dark bg-opacity-90 text-light pt-5 pb-5 mt-5 position-relative top-50">
+        <div class="container py-5 text-center">
+
+            <a class="navbar-brand  fw-bold fs-3" href="#">SKILLBOOST</a>
+            <span class=" fs-3 mx-2 fw-normal">|</span>
+            <span class="fs-5 fw-bold">Virtual Class for Zoom</span>
+
+            <div class="mt-5 pt-4">
+                <p class="fs-5 mb-4  opacity-75">Subscribe to get our Newsletter</p>
+                <div class="input-group col-md-8 mx-auto mb-5 shadow-sm rounded-pill bg-dark">
+                    <input type="email" class="form-control  rounded text-white border-0 px-4 py-3"
+                        placeholder="Your Email">
+                    <button class="btn btn-info text-white rounded-pill px-4 mx-1" type="button">Subscribe</button>
+                </div>
+            </div>
+
+            <div class=" small opacity-75 mt-5 d-flex justify-content-center gap-3">
+                <a href="#" class="text-decoration-none ">Careers</a>
+                <span>|</span>
+                <a href="#" class="text-decoration-none ">Privacy Policy</a>
+                <span>|</span>
+                <a href="#" class="text-decoration-none ">Terms & Conditions</a>
+            </div>
+            <p class=" small opacity-50 mt-3">&copy; 2021 Class Technologies Inc.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
